@@ -5,6 +5,7 @@ const Header = () => {
         <div>
             <nav className="bg-gray-50shadow shadow-gray-100 rounded-lg w-100 px-8 md:px-auto">
                 <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+
                     <div className="text-indigo-500 md:order-1 flex flex-row justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -25,6 +26,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav >
+
         </div >
     )
 }
